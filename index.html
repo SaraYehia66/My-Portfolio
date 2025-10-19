@@ -28,18 +28,22 @@
         <nav class="container">
             <a href="#" class="logo"><img src="img/logo.webp" alt=""></a>
 
-            <div class="links">
-                <a class="active" href="#">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+            <div class="links" id="links">
+                <span class="close_menu" onclick="open_close_menu()" ><i class="fa-solid fa-xmark"></i></span>
+
+                <a class="logo" href="#"><img src="img/logo.webp" alt=""></a>
+                <a class="active" href="#" onclick="open_close_menu()">Home</a>
+                <a href="#about" onclick="open_close_menu()">About</a>
+                <a href="#services" onclick="open_close_menu()">Services</a>
+                <a href="#projects" onclick="open_close_menu()">Projects</a>
+                <a href="#contact" onclick="open_close_menu()">Contact</a>
             </div>
 
             <div class="icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sarayehia33" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SaraYehia66" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                <a href="mailto:sarayehia788@gmail.com" target="_blank"><i class="fa-solid fa-envelope" ></i></a>
+                <span class="icon_menu" onclick="open_close_menu()"><i class="fa-solid fa-bars"></i></span>
             </div>
 
         </nav>
@@ -51,13 +55,10 @@
                 <h4>Hello, I'm</h4>
                 <h1><span>Sara Yehia</span></h1>
                 <h2>Data Scientist</h2>
-                <p>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Neque quae ullam culpa
-                    ab voluptatem inventore consequatur exercitationem! Molestiae,
-                    quam nulla.
+                <p>I specialize in data analysis, machine learning, and developing end-to-end solutions that drive informed decision-making and business impact.
                 </p>
                 <div class="btns">
-                    <a href="#" class="btn">hire me</a>
+                    <a href="#contact" class="btn">hire me</a>
                     <a href="https://drive.google.com/file/d/1ocp56fRIUfzTYehf1XsaPJ3IHbxhoWu6/view" target="_blank"
                         class="btn_no_bg">My Resume</a>
                 </div>
@@ -69,21 +70,24 @@
             </div>
         </div>
     </div>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="div_text">
                 <h5>about me</h5>
                 <h2><span>I'm a Data Scientist</span></h2>
                 <h4>Turning Raw Information Into Meaningful Insights</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, magnam dolorem ad laborum nulla,
-                    atque iusto distinctio eligendi explicabo laudantium soluta facere minus aut unde.</p>
+                <p>I’m a passionate Data Scientist with a strong focus on transforming complex data into actionable insights. 
+                    I specialize in data analysis, machine learning, and building end-to-end solutions that drive real business value. 
+                    With a solid foundation in statistics and programming, I enjoy solving challenging problems, uncovering meaningful patterns, and presenting results through clear visualizations.
+                     My goal is to turn raw information into smart decisions and impactful solutions.</p>
                 <ul>
                     <li><i class="fa-solid fa-check"></i> Data Analysis & Visualization</li>
                     <li><i class="fa-solid fa-check"></i> Machine Learning & Predictive Modeling</li>
                     <li><i class="fa-solid fa-check"></i> Statistical Analysis & Experimentation</li>
                     <li><i class="fa-solid fa-check"></i> Big Data & Cloud Technologies</li>
                 </ul>
-                <a href="https://drive.google.com/file/d/1ocp56fRIUfzTYehf1XsaPJ3IHbxhoWu6/view" target="_blank" class="btn">View My
+                <a href="https://drive.google.com/file/d/1ocp56fRIUfzTYehf1XsaPJ3IHbxhoWu6/view" target="_blank"
+                    class="btn">View My
                     CV</a>
             </div>
             <div class="div_img">
@@ -91,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="top_section">
                 <h2>Our <span>Services</span></h2>
@@ -99,80 +103,69 @@
 
             <div class="boxs">
                 <div class="box">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>Data Science</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae nobis culpa
-                        consequuntur, quia saepe eaque ipsa magnam nulla soluta a quas. Dolores,
-                        ipsa iusto. Temporibus, laboriosam? Eligendi, ea modi.
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Data Analysis & Visualization</h3>
+                    <p>Transform raw data into meaningful insights using statistical methods and create clear, 
+                        interactive visualizations to communicate results effectively.
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
 
                 <div class="box">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>Data Science</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae nobis culpa
-                        consequuntur, quia saepe eaque ipsa magnam nulla soluta a quas. Dolores,
-                        ipsa iusto. Temporibus, laboriosam? Eligendi, ea modi.
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>Machine Learning & Predictive Modeling</h3>
+                    <p>Build and train machine learning models for classification, regression, and clustering 
+                        to solve real-world problems and support data-driven decisions.
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
 
                 <div class="box">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>Data Science</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae nobis culpa
-                        consequuntur, quia saepe eaque ipsa magnam nulla soluta a quas. Dolores,
-                        ipsa iusto. Temporibus, laboriosam? Eligendi, ea modi.
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>End-to-End Data Solutions</h3>
+                    <p>Handle the entire data science workflow from data collection and cleaning to model development, reporting, and deployment.
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
             <div class="top_section">
                 <h2>Explore My Popular <span>Projects</span></h2>
             </div>
 
             <div class="project_box">
-                <img src="img/pro1.jpg" alt="">
+                <img src="img/Diabetes-Prediction-Using-Machine-Learning.webp" alt="">
                 <div class="text">
-                    <h4><span>Sentment Analysis</span></h4>
-                    <h3><a href="">Show Sentment Analysis</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit nobis earum nisi
-                        consectetur perferendis porro molestias excepturi? Ex ut natus
-                        iure harum provident blanditiis vel hic
-                        deserunt suscipit velit?
+                    <h4><span> Diabetes predicting project</span></h4>
+                    <h3><a href="https://github.com/SaraYehia66/Diabetes-predicting-data-science-project/tree/main">Show My Project</a></h3>
+                    <p>The objective of this project is to classify whether someone has diabetes or not.
+Dataset consists of several Medical Variables(Independent) and one Outcome Variable(Dependent)
                     </p>
-                    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
+                    <a href="https://github.com/SaraYehia66/Diabetes-predicting-data-science-project/tree/main" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
             <div class="project_box project_box2">
-                <img src="img/pro1.jpg" alt="">
+                <img src="img/What-is-Sentiment-Analysis.png" alt="">
                 <div class="text">
-                    <h4><span>Sentment Analysis</span></h4>
-                    <h3><a href="">Show Sentment Analysis</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit nobis earum nisi
-                        consectetur perferendis porro molestias excepturi? Ex ut natus
-                        iure harum provident blanditiis vel hic
-                        deserunt suscipit velit?
-                    </p>
+                    <h4><span>Emotion Analysis Based On Text</span></h4>
+                    <h3><a href="">Show My Project</a></h3>
+                    <p>Emotion Analysis Based on Text is a Natural Language Processing (NLP) project that focuses on identifying and classifying emotions expressed in written text. The goal is to analyze sentences and determine the underlying emotional tone, such as happiness, sadness, anger, fear, or surprise.
+                         This project involves data preprocessing, text vectorization, and training machine learning models to accurately predict emotions</p>
                     <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
             <div class="project_box">
-                <img src="img/pro1.jpg" alt="">
+                <img src="img/Deep_Learning_Hero_3200x1800.webp" alt="">
                 <div class="text">
-                    <h4><span>Sentment Analysis</span></h4>
-                    <h3><a href="">Show Sentment Analysis</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit nobis earum nisi
-                        consectetur perferendis porro molestias excepturi? Ex ut natus
-                        iure harum provident blanditiis vel hic
-                        deserunt suscipit velit?
+                    <h4><span>Breast Cancer Prediction Using Deep Learning</span></h4>
+                    <h3><a href="https://github.com/SaraYehia66/Breast_Cancer_Prediction_Using_Deep_Learning">Show My Project</a></h3>
+                    <p>Breast Cancer Prediction Using Deep Learning is a project that aims to build an intelligent model capable of detecting breast cancer at an early stage.
+                         By analyzing medical data, the deep learning model learns to distinguish between malignant and benign cases with high accuracy.
                     </p>
-                    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
+                    <a href="https://github.com/SaraYehia66/Breast_Cancer_Prediction_Using_Deep_Learning" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
 
@@ -186,24 +179,27 @@
             <div class="social_contact">
                 <h2>Follow Me</h2>
                 <div class="links">
-                    <a href="mailto:sarayehia788@gmail.com"><i class="fa-solid fa-envelope"></i> sarayehia788@gmail.com</a>
+                    <a href="mailto:sarayehia788@gmail.com"><i class="fa-solid fa-envelope"></i>
+                        sarayehia788@gmail.com</a>
                     <a href="tel:+201003730465"><i class="fa-solid fa-phone"></i> 01003730465</a>
-                    <a href="" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/sarayehia33" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                    <a href="https://www.facebook.com/sara.yehia.7127/?locale=ar_AR" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="https://github.com/SaraYehia66" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/sarayehia33" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.facebook.com/sara.yehia.7127/?locale=ar_AR" target="_blank"><i
+                            class="fa-brands fa-facebook"></i> Facebook</a>
                 </div>
             </div>
-            <form action="">
+            <form method="post" action="https://api.sheetmonkey.io/form/piA98BPAQXkzYLJpCvZRis">
                 <div class="inpts_form">
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Mobile Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Full Name" name="name" required>
+                    <input type="text" placeholder="Email" name="Email" required>
+                    <input type="text" placeholder="Mobile Number" name="Phone">
+                    <input type="text" placeholder="Subject" name="Subject">
 
-                    <textarea name="" id="" rows="10" placeholder="Your Message Here ..."></textarea>
+                    <textarea name="Message" id="" rows="10" placeholder="Your Message Here ..." required></textarea>
                 </div>
 
-                <button class="btn">Send Message</button>
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
 
