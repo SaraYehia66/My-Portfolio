@@ -673,9 +673,9 @@ header .links .logo {
         margin-bottom: 50px;
     }
 
-    .about .div_img {
+    /* .about .div_img {
         width: 45%;
-    }
+    } */
 
     .services .boxs .box {
         width: 47%;
@@ -813,9 +813,9 @@ header .links .logo {
         font-size: 14px;
     }
 
-    .about .div_img {
+    /* .about .div_img {
         width: 85%;
-    }
+    } */
 
     .top_section h2 {
         font-size: 25px;
